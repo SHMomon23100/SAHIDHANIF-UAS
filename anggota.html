@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Koperasi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="anggota.css">
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="logo-container">
+                <img src="avatar.png" alt="Logo Koperasi" class="logo"> 
+                <span class="nav-title">Anggota</span>
+            </div>
+            <div id="menu-icon" class="menu-icon">
+                <i class="ph ph-list"></i>
+            </div>
+            <ul id="menu-list" class="hidden">
+                <li><a href="index.html">Branda</a></li>
+                <li><a href="anggota.html">Anggota</a></li>
+                <li><a href="pinjaman.html">Pinjaman</a></li>
+                <li><a href="tabungan.html">Tabungan</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    
+    
+    <div class="container">
+        <div class="content">
+            <h2>Daftar Anggota</h2>
+            <table>
+                <tr>
+                    <th>ID Anggota</th>
+                    <th>Nama</th>
+                    <th>Alamat</th>
+                    <th>Telepon</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Agus Salim</td>
+                    <td>Jl. Contoh No. 1</td>
+                    <td>08123456789</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Agus Buntung</td>
+                    <td>Jl. Contoh No. 2</td>
+                    <td>08198765432</td>
+                </tr>
+                <!-- Tambahkan lebih banyak anggota di sini -->
+            </table>
+    
+            <h3>Anggota Baru</h3>
+            <form action="#" method="post">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+    
+                <label for="alamat">Alamat:</label>
+                <input type="text" id="alamat" name="alamat" required>
+    
+                <label for="telepon">Telepon:</label>
+                <input type="text" id="telepon" name="telepon" required>
+    
+                <input id="submit-anggota" type="submit" value="Tambah Anggota">
+            </form>
+        </div>
+    </div>
+    
+    <script src="javascript.js" defer></script>
+    <script>
+        document.getElementById("submit-anggota").onclick = function() {
+            alert("Berhasil Menambahkan Anggota!");
+        };
+    </script>
+    </body>
+    </html>

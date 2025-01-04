@@ -1,0 +1,52 @@
+body {
+    color: #24292e;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center; /* Memusatkan teks di dalam kontainer */
+    background: #24292e; /* Warna latar belakang kontainer */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.619); /* Bayangan */
+    margin-top: 20px; /* Jarak atas kontainer */
+}
+h1 {
+    color: #007bff; /* Warna judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+}
+.tabungan-list {
+    list-style: none; /* Menghilangkan bullet list */
+    padding: 0; /* Menghilangkan padding */
+}
+.tabungan-item {
+    background: #16191c; /* Warna latar belakang item */
+    margin: 10px 0; /* Jarak antar item */
+    padding: 15px; /* Padding di dalam item */
+    border-radius: 5px; /* Sudut melengkung */
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    justify-content: space-between; /* Menyebar item secara merata */
+    align-items: center; /* Menyelaraskan item di tengah secara vertikal */
+}
+.tabungan-item h2 {
+    margin: 0; /* Menghilangkan margin */
+    font-size: 18px; /* Ukuran font */
+}
+.tabungan-item p {
+    margin: 0; /* Menghilangkan margin */
+    color: #6c757d; /* Warna teks */
+}
+.add-button {
+    background: #28a745; /* Warna tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghilangkan garis batas */
+    border-radius: 5px; /* Sudut melengkung */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    cursor: pointer; /* Menunjukkan bahwa tombol dapat diklik */
+    font-size: 16px; /* Ukuran font tombol */
+    margin-top: 20px; /* Jarak atas tombol */
+}
+.add-button:hover {
+    background: #218838; /* Warna tombol saat hover */
+}

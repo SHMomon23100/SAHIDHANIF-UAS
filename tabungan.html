@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Koperasi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tabungan.css">
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="logo-container">
+                <img src="avatar.png" alt="Logo Koperasi" class="logo"> 
+                <span class="nav-title">Sahid Hanif</span>
+            </div>
+            <div id="menu-icon" class="menu-icon">
+                <i class="ph ph-list"></i>
+            </div>
+            <ul id="menu-list" class="hidden">
+                <li><a href="index.html">Branda</a></li>
+                <li><a href="anggota.html">Anggota</a></li>
+                <li><a href="pinjaman.html">Pinjaman</a></li>
+                <li><a href="tabungan.html">Tabungan</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <h1>Data Tabungan Anggota</h1>
+            <p>Berikut adalah daftar tabungan anggota koperasi:</p>
+            
+            <ul class="tabungan-list">
+                <li class="tabungan-item">
+                    <h2>Agus Buntung</h2>
+                    <p>Saldo: Rp 1.000.000</p>
+                </li>
+                <li class="tabungan-item">
+                    <h2>Agus Salim</h2>
+                    <p>Saldo: Rp 500.000</p>
+                </li>
+                <li class="tabungan-item">
+                    <h2>Udin Petot</h2>
+                    <p>Saldo: Rp 2.500.000</p>
+                </li>
+                <li class="tabungan-item">
+                    <h2>Woi Udin</h2>
+                    <p>Saldo: Rp 750.000</p>
+                </li>
+            </ul>
+        
+            <button id="submit-tabungan" class="add-button">Tambah Tabungan</button>  
+        </div>
+
+    <script src="javascript.js" defer></script>
+    <script>
+        document.getElementById("submit-tabungan").onclick = function() {
+            alert("Tidak Bisa Menambah Tabungan!");
+        };
+    </script>
+    </body>
+ </html>
